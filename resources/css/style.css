@@ -1,40 +1,39 @@
-* {
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: black;
 }
 
-h1 {    
+/* HEADINGS */
+
+.header_main {    
     font-size: 50px;
     font-weight: normal;
     color: white;
 }
 
-h2 {
+.header_secondary {
     font-weight: 300;
     font-size: 42px;
     color: white;
 }
 
-h3 {
+.header_sub-header {
     font-size: 21px;
     color: gray;
 }
 
-h4 {
+/* LINKS */
+
+.link {
     font-size: 16px;
     color: aquamarine;
 }
 
-video {
-    align-content: center;
-}
+/* FOOTER */
 
-img {
-    align-content: center;
-}
-
-.copyright {
+.footer_copyright {
+    font-size: 21px;
     text-align: right;
     color: gray;
 }
